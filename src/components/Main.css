@@ -1,0 +1,80 @@
+.box{
+    font-size: medium;
+    width: 100%;
+    max-width: 330px;
+    height: 50%;
+    padding: 15px;
+    margin: auto;
+    background-color:	white;
+    margin-top: 150px;
+}
+
+.signup-form{
+    width: 100%;
+    background-color:	 white;
+    max-width: 330px;
+    height: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+.btn-primary{
+    width: 100%;
+    height: 10%;
+}
+
+.maps{
+    width: 100%;
+    height: 10%;
+
+}
+
+.toolbar{
+    position: fixed;
+    width: 100%;
+    background: #FF5722;
+    height: 100px;
+}
+
+.toolbar_logo{
+    margin-right: 10px;
+}
+
+.toolbar_navigation{
+    display: flex;
+    height: 100%;
+    padding:0 1rem ;
+    align-items: center;
+}
+
+.spacer{
+    flex: 1;
+}
+
+.toolbar_navigation-items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation-items li{
+    padding: 0 0.5rem;
+}
+
+.toolbar_navigation-items a{
+color: white;
+text-decoration: none;
+}
+
+.toolbar_navigation-items a:hover
+{
+    color: rgb(34, 10, 33);
+}
+
+.toolbar_logo a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

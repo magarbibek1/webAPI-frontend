@@ -9,7 +9,8 @@ import TWO from '../components/images/TWO.jpg';
 import THREE from '../components/images/THREE.jpg';
 import FOUR from '../components/images/FOUR.jpg';
 import axios from 'axios';
-import { Container, Row, Col }from 'reactstrap';
+import { Container, Row, Col, Form, FormText }from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class Dashboard extends Component {
     
@@ -113,22 +114,15 @@ export default class Dashboard extends Component {
                 </div>
             </Carousel>
             </div>
-            <div style={{width:'600px', height:'600px',marginLeft:'300px'}}>
-            <Carousel>
-                <div>
-                    <img src={THREE} />
-                </div>
-                <div>
-                    <img src={TWO} />
-                </div>
-                <div>
-                    <img src={ONE} />
-                </div>
-                <div>
-                    <img src={FOUR} />
-                </div>
-            </Carousel>
+
+            <div>
+                <img src ={ONE} />
+            
             </div>
+            <Form>
+                <FormText> Booke Your Bike <Link to ='/Booking'>Book Here</Link> </FormText>
+            </Form>
+            
 
 
           <Footer size="mini">
